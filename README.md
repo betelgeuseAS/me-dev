@@ -1,4 +1,4 @@
-# MyDev
+# MeDev
 
 My personal [website](https://betelgeuseas.github.io/me-dev/) with a list of my projects that help learn and blog posts web-development
 
