@@ -1,0 +1,44 @@
+// Variables
+$accent-color: #3E78B2
+$dark-color: black
+
+// Budge
+.bg-custom-badge
+  background-color: #E5E7EB !important
+
+// Links
+.custom-link
+  font-weight: bold
+  a
+    color: inherit
+
+.nav-link
+  font-size: .75rem
+  a
+    color: var(--bs-body-color)
+    text-decoration: none
+  &:first-child
+    margin-right: 32px
+    font-weight: bold
+    font-size: .875rem !important
+    padding: 0
+  &.active
+    font-weight: bold
+
+.hover-link
+  transition: all 0.3s ease
+  &:hover
+    color: $accent-color !important
+    transition: all 0.3s ease
+
+// Dropdown
+.custom-dropdown
+  &:after
+    display: none !important
+
+// Buttons
+.custom-button
+  border-color: $dark-color
+  color: $dark-color
+  &:hover
+    background: $dark-color
