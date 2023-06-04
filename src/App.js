@@ -7,17 +7,17 @@ import {Root, NotFoundPage, ErrorPage, AboutPage, ProjectsPage, BlogPage} from '
 import './App.sass';
 
 const router = createBrowserRouter([{
-  path: "/",
+  path: "/me-dev",
   element: <Root />,
   errorElement: <ErrorPage />,
   children: [{
-    path: "/about",
+    path: "/me-dev/about",
     element: <AboutPage />,
   }, {
-    path: "/projects",
+    path: "/me-dev/projects",
     element: <ProjectsPage />,
   }, {
-    path: "/blog",
+    path: "/me-dev/blog",
     element: <BlogPage />,
   }, {
     path: "*",

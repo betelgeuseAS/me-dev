@@ -6,10 +6,10 @@ export const Menu = () => {
   let location = useLocation();
 
   const links = [
-    {title: 'MeDev', to: '/about'},
-    {title: 'About', to: '/about'},
-    {title: 'Projects', to: '/projects'},
-    {title: 'Blog', to: '/blog'}
+    {title: 'MeDev', to: '/me-dev/about'},
+    {title: 'About', to: '/me-dev/about'},
+    {title: 'Projects', to: '/me-dev/projects'},
+    {title: 'Blog', to: '/me-dev/blog'}
   ];
 
   const isActive = (to) => location.pathname === to ? 'active' : '';

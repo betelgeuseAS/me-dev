@@ -11,7 +11,7 @@ export const Root = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    if (location.pathname === '/') navigate('/about');
+    if (location.pathname === '/me-dev/') navigate('/me-dev/about');
   }, []);
 
   return (
