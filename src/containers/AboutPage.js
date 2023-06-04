@@ -2,14 +2,9 @@ import {Fragment} from 'react';
 
 import {Link} from 'react-router-dom';
 
-import {
-  Card, CardBody, CardSubtitle, CardText, CardTitle, Col, Container, DropdownItem, DropdownMenu,
-  DropdownToggle, List, ListInlineItem, Row, UncontrolledDropdown
-} from 'reactstrap';
+import {Card, CardBody, CardSubtitle, CardText, CardTitle, Col, Row} from 'reactstrap';
 
-import {MdOutlineBusinessCenter, MdOutlineLocationOn, MdOutlineFileDownload} from 'react-icons/md';
-import {HiOutlineHeart} from 'react-icons/hi2';
-import {FaLinkedin, FaGithub, FaMedium, FaDev} from 'react-icons/fa';
+import {MdOutlineBusinessCenter, MdOutlineLocationOn} from 'react-icons/md';
 
 import {CustomBadge} from '../components';
 
@@ -46,11 +41,11 @@ export const AboutPage = () => {
                 <CustomBadge>React (Redux, Next)</CustomBadge>
                 <CustomBadge>Node (Express, Nest)</CustomBadge>
                 <br />
-                <CustomBadge>Webpack, Docker, Kubernetes</CustomBadge>
                 <CustomBadge>DB (MySQL, MongoDB)</CustomBadge>
-                <CustomBadge>API (Rest API, Graphql, Postman)</CustomBadge>
+                <CustomBadge>API (Rest API, GraphQL, Postman)</CustomBadge>
                 <br />
-                <CustomBadge>Jira, Git</CustomBadge>
+                <CustomBadge>Build (Webpack, Docker, Kubernetes)</CustomBadge>
+                <CustomBadge>Control (Jira, Git)</CustomBadge>
               </CardText>
             </CardBody>
           </Card>

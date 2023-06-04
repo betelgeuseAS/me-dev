@@ -12,7 +12,7 @@ export const Footer = () => {
   const handleDownloadCV = () => {
     const anchor = document.createElement('a');
 
-    anchor.setAttribute('href','public/assets/files/CV Andrew Samchuk EN.pdf');
+    anchor.setAttribute('href','assets/files/CV Andrew Samchuk EN.pdf');
     anchor.setAttribute('download','');
 
     document.body.appendChild(anchor);
