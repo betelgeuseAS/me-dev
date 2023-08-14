@@ -1,6 +1,6 @@
 import { Fragment } from 'react';
 
-import {Button, Card, CardBody, CardSubtitle, CardText, CardTitle, Col, Row} from 'reactstrap';
+import {Button, Card, CardBody, CardText, CardTitle, Col, Row} from 'reactstrap';
 
 import {FaPlay, FaGithub} from 'react-icons/fa';
 
@@ -22,7 +22,7 @@ export const ProjectsPage = () => {
           <Col sm="12" md="6" lg="4" key={item.title}>
             <Card className="mb-3">
               <img
-                alt="Image"
+                alt="project presentation"
                 src={item.image}
                 style={{
                   borderTopLeftRadius: 'var(--bs-border-radius)',

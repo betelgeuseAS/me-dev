@@ -43,9 +43,10 @@ export const AboutPage = () => {
                 <br />
                 <CustomBadge>DB (MySQL, MongoDB)</CustomBadge>
                 <CustomBadge>API (Rest API, GraphQL, Postman)</CustomBadge>
+                <CustomBadge>Build (Webpack, Gulp)</CustomBadge>
                 <br />
-                <CustomBadge>Build (Webpack, Docker, Kubernetes)</CustomBadge>
-                <CustomBadge>Control (Jira, Git)</CustomBadge>
+                <CustomBadge>Containers (Docker, Kubernetes)</CustomBadge>
+                <CustomBadge>Control (Git Jira)</CustomBadge>
               </CardText>
             </CardBody>
           </Card>
@@ -59,9 +60,9 @@ export const AboutPage = () => {
           <p>
             I work as a full-time software engineer. However, apart from work, I am actively involved in my projects
             and learning something new. My main goal in these endeavours is to contribute to the learning of not only
-            myself but also others. Most of my open-source <span className="custom-link hover-link"><Link to="/projects">projects</Link></span> are focused on one
+            myself but also others. Most of my open-source <span className="custom-link hover-link"><Link to="/me-dev/projects">projects</Link></span> are focused on one
             thing – <i>to help learn</i>. You can use these projects to learn algorithms, data structures, design
-            patterns, new technologies, etc. I also write <span className="custom-link hover-link"><Link to="/blog">articles</Link></span> about web-development,
+            patterns, new technologies, etc. I also write <span className="custom-link hover-link"><Link to="/me-dev/blog">articles</Link></span> about web-development,
             and other interesting things.
           </p>
         </Col>
