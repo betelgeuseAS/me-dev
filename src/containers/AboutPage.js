@@ -15,7 +15,7 @@ export const AboutPage = () => {
     <Fragment>
       <Row>
         <Col xs="12" sm="3">
-          <Card style={{width: '100%', border: 0, marginBottom: '25px'}}>
+          <Card style={{width: '100%', border: 0, marginBottom: '10px'}}>
             <img alt="Me" src={meImage} style={{clipPath: 'circle(50% at 50% 50%)'}} />
           </Card>
         </Col>
@@ -36,17 +36,16 @@ export const AboutPage = () => {
               </CardSubtitle>
 
               <CardText>
-                <CustomBadge>Full Stack</CustomBadge>
+                <CustomBadge>HTML5 / CSS3 (Sass, Material UI, Bootstrap)</CustomBadge>
                 <CustomBadge>JavaScript (TypeScript)</CustomBadge>
-                <CustomBadge>React (Redux, Next)</CustomBadge>
+                <CustomBadge>React (Redux, MobX, Next)</CustomBadge>
+                <br />
                 <CustomBadge>Node (Express, Nest)</CustomBadge>
+                <CustomBadge>DB - MySQL, MongoDB</CustomBadge>
+                <CustomBadge>API - REST API, GraphQL, Postman</CustomBadge>
                 <br />
-                <CustomBadge>DB (MySQL, MongoDB)</CustomBadge>
-                <CustomBadge>API (Rest API, GraphQL, Postman)</CustomBadge>
-                <CustomBadge>Build (Webpack, Gulp)</CustomBadge>
-                <br />
-                <CustomBadge>Containers (Docker, Kubernetes)</CustomBadge>
-                <CustomBadge>Control (Git Jira)</CustomBadge>
+                <CustomBadge>Build - Webpack, Gulp</CustomBadge>
+                <CustomBadge>Control - Git</CustomBadge>
               </CardText>
             </CardBody>
           </Card>
@@ -58,11 +57,17 @@ export const AboutPage = () => {
           <p>Hi there! I'm Andrew.</p>
 
           <p>
-            I work as a full-time software engineer. However, apart from work, I am actively involved in my projects
-            and learning something new. My main goal in these endeavours is to contribute to the learning of not only
-            myself but also others. Most of my open-source <span className="custom-link hover-link"><Link to="/me-dev/projects">projects</Link></span> are focused on one
-            thing – <i>to help learn</i>. You can use these projects to learn algorithms, data structures, design
-            patterns, new technologies, etc. I also write <span className="custom-link hover-link"><Link to="/me-dev/blog">articles</Link></span> about web-development,
+            I am a <i>Full-stack</i> web developer with a passion for software development. I am proficient in both
+            <i> Front-end</i> and <i>Back-end</i> development, creating user-friendly interfaces and powerful
+            functionality. I strive to provide high-quality, innovative solutions. I try to keep up to date with the
+            latest technologies to create scalable and efficient software.
+          </p>
+
+          <p>And finally, your years in IT do not guarantee your seniority.</p>
+
+          <p>
+            Most of my open-source <span className="custom-link hover-link"><Link to="/me-dev/projects">projects</Link></span> are focused on one
+            thing – <i>to help learn</i>. I also write <span className="custom-link hover-link"><Link to="/me-dev/blog">articles</Link></span> about web-development,
             and other interesting things.
           </p>
         </Col>
