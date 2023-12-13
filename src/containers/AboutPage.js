@@ -38,14 +38,19 @@ export const AboutPage = () => {
               <CardText>
                 <CustomBadge>HTML5 / CSS3 (Sass, Material UI, Bootstrap)</CustomBadge>
                 <CustomBadge>JavaScript (TypeScript)</CustomBadge>
-                <CustomBadge>React (Redux, MobX, Next)</CustomBadge>
-                <br />
+                <CustomBadge>React (Redux, Next)</CustomBadge>
                 <CustomBadge>Node (Express, Nest)</CustomBadge>
+                <br />
+                <CustomBadge>Docker</CustomBadge>
                 <CustomBadge>DB - MySQL, MongoDB</CustomBadge>
                 <CustomBadge>API - REST API, GraphQL, Postman</CustomBadge>
-                <br />
                 <CustomBadge>Build - Webpack, Gulp</CustomBadge>
-                <CustomBadge>Control - Git</CustomBadge>
+                <CustomBadge>Testing - Jest, RTL</CustomBadge>
+                <br />
+                <CustomBadge>Design - Photoshop, Figma</CustomBadge>
+                <CustomBadge>IDE - VS Code, IntelliJ IDEA</CustomBadge>
+                <CustomBadge>VCS - Git, GitHub, GitLab</CustomBadge>
+                <CustomBadge>Management - Jira, ClickUp, Confluence</CustomBadge>
               </CardText>
             </CardBody>
           </Card>
