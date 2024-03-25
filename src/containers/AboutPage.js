@@ -36,20 +36,24 @@ export const AboutPage = () => {
               </CardSubtitle>
 
               <CardText>
-                <CustomBadge>HTML5 / CSS3 (Sass, Material UI, Bootstrap)</CustomBadge>
-                <CustomBadge>JavaScript (TypeScript)</CustomBadge>
-                <CustomBadge>React (Redux, Next)</CustomBadge>
-                <CustomBadge>Node (Express, Nest)</CustomBadge>
+                <CustomBadge>HTML5, CSS3, Sass, Material UI, Bootstrap, Tailwind</CustomBadge>
+                <CustomBadge>JavaScript, TypeScript, RxJS, </CustomBadge>
+                <CustomBadge>React, Redux, Zustand, Next</CustomBadge>
+                <CustomBadge>Node, Express, NestJS,</CustomBadge>
+                <CustomBadge>OOP, SOLID, Design Patterns, Architecture, CI/CD, Responsive Design, Scrum</CustomBadge>
                 <br />
-                <CustomBadge>Docker</CustomBadge>
-                <CustomBadge>DB - MySQL, MongoDB</CustomBadge>
-                <CustomBadge>API - REST API, GraphQL, Postman</CustomBadge>
-                <CustomBadge>Build - Webpack, Gulp</CustomBadge>
-                <CustomBadge>Testing - Jest, RTL</CustomBadge>
                 <br />
+                <CustomBadge>DB - MySQL, MongoDB, Firebase</CustomBadge>
+                <CustomBadge>API - REST, GraphQL, Axios, Postman</CustomBadge>
+                <CustomBadge>Build - Webpack, Gulp, Electron, Docker</CustomBadge>
+                <br />
+                <CustomBadge>Testing - Jest, RTL, Nightwatch, Cypress, Sonar</CustomBadge>
                 <CustomBadge>Design - Photoshop, Figma</CustomBadge>
+                <CustomBadge>CMS - Shopify, Magento</CustomBadge>
                 <CustomBadge>IDE - VS Code, IntelliJ IDEA</CustomBadge>
-                <CustomBadge>VCS - Git, GitHub, GitLab</CustomBadge>
+                <br />
+                <CustomBadge>VCS - Git, GitHub, Bitbucket</CustomBadge>
+                <CustomBadge>Hosting - Vercel, Netlify</CustomBadge>
                 <CustomBadge>Management - Jira, ClickUp, Confluence</CustomBadge>
               </CardText>
             </CardBody>
